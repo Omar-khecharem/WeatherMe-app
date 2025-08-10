@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Component/Navbar";
-import Input from "./Component/Input";
+
 import Card from "./Component/Card";
 
 const App = () => {
