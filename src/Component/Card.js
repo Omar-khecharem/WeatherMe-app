@@ -9,7 +9,7 @@ const Card = () => {
   const getWeather = async () => {
     try {
       const res = await axios.get(
-        "http://api.airvisual.com/v2/nearest_city?key=037c8bd5-8cd1-4699-a0bc-701833151bf0"
+        "https://api.airvisual.com/v2/nearest_city?key=037c8bd5-8cd1-4699-a0bc-701833151bf0"
       );
 
       setWeather(res.data);
